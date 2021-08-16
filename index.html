@@ -48,12 +48,12 @@
 							<h2>Empowering patients to pursue wellness</h2>
 						</header>
 						<div class="content">
-							<p>At RapidRx, we empower patients . </p>
+							<p>At RapidRx, we empower patients. </p>
 							<ul class="feature-icons">
 								<li class="icon solid fa-dollar-sign"><strong>Cost-Effective: </strong>we procure FDA-approved generic formulations of classic drugs to charge a small fraction of the market value.</li>
 								<li class="icon solid fa-stethoscope"><strong>Expert Clinicians: </strong>our team of expert healthcare providers can prescribe medications over virtual visits and ensure that your care is of the highest quality.</li>
 								<li class="icon solid fa-clock"><strong>Convenient: </strong>To maximize your convenience, we offer our drugs available for purchase direct-to-consumer.</li>
-								<li class="icon solid fa-home"><strong>Comfortable: </strong>Your purchases can be delivered directly to the comfort of your home. No in-person clinic visit in.</li>
+								<li class="icon solid fa-home"><strong>Comfortable: </strong>Your purchases are discreetly delivered directly to the comfort of your home. No in-person clinic visit.</li>
 							</ul>
 							
 							<p>Take command of your health and join the RapidRx community with <strong>three simple steps</strong>.</p>
@@ -93,22 +93,22 @@
 						</header>
 						<div class="content">
 							<p>Interested in joining our community? Please <strong>don't hesitate</strong> to get in touch.</p>
-							<form>
-								<div class="fields">
-									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-									</div>
-								</div>
+							<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xleaojyk" method="post">
+								<fieldset id="fs-frm-inputs">
+								  <label for="full-name">Full Name</label>
+								  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+								  <label for="email-address">Email Address</label>
+								  <input type="email" name="_replyto" id="email-address" placeholder="email@address.com" required="">
+								  <label for="message">Message</label>
+								  <textarea rows="5" name="message" id="message" placeholder="Your message here." required=""></textarea>
+								  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+								</fieldset>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
+									<li><input type="submit" value="Submit" class="button primary" /></li>
 								</ul>
-							</form>
+							  </form>
+
+
 						</div>
 						<footer>
 							<ul class="items">
